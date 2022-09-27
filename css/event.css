@@ -157,13 +157,13 @@ button[name=sub-mail]{
     height: 300px;
     width: 100%;
     border-radius: 10px;
+    transition: 400ms all;
 }
 .box-item{
     float: left;
     width: calc(25% - 6px);
     margin: 3px;
     padding: 3px;
-    border-radius: 6px;
     height: 430px;
 }
 .bt{
@@ -184,7 +184,7 @@ td{
     text-align: center;
 }
 .imbsl:hover{
-    zoom: 110%;
+    transform: scale(1.25);
 }
 button[name=sub]{
     background-color: forestgreen;
