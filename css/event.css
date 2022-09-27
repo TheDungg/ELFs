@@ -29,6 +29,7 @@ img{
 }
 .link:hover {
     zoom: 1.5;
+    color: #e1b402;
 }
 .header {
     line-height: 70px;
@@ -74,30 +75,37 @@ i{
     margin-bottom: 10px;
 }
 footer{
-    padding: 60px 150px 230px 150px;
-    margin-bottom: 50px;
+    padding: 40px 60px 80px 60px;
+    margin-left: 368.5px;
+    margin-right: 368.5px;
+    max-width: 100%;
 }
 .left{
     float: left;
     font-size: 13px;
     width: 30%;
+
 }
-.left li{
-    list-style: none;
+
+h3{
+    font-weight: bold;
+    font-size: 17px;
 }
-.left li a{
+
+.left p a{
     color: forestgreen;
+    line-height: 1.15;
 }
 .center{
     float: left;
     width: 30%;
     font-size: 13px;
+    padding-left: 40px;
 }
 .right{
     float: right;
     width: 40%;
     font-size: 13px;
-    padding-left: 20px;
 }
 footer .center li{
     padding-top:15px;
@@ -180,6 +188,9 @@ button[name=sub-mail]{
     width: 300px;
     text-align: center;
 }
+.top-box b{
+
+}
 td{
     text-align: center;
 }
@@ -194,20 +205,12 @@ button[name=sub]{
     color: white;
     margin-bottom: 20px;
 }
-.tr-buy{
-    border-bottom: 2px solid forestgreen;
-}
-.td-buy{
-    border-bottom: 1px solid forestgreen;
-    padding: 5px;
-}
+
+
 .form-buy{
     padding: 100px;
 }
-.sum-buy{
-    font-size: 22px;
-    margin: 20px 0;
-}
+
 #gh{
     text-align: center;
     font-size: 40px;
