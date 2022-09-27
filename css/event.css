@@ -1,0 +1,233 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    color: forestgreen;
+    font-weight: 400;
+    background-color: #fafafa;
+    font-family: Arial ,sans-serif;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.liheader {
+    list-style: none;
+    font-weight: 700;
+    float: left;
+    line-height: 70px;
+    padding: 0 10px;
+    color: forestgreen;
+}
+.link{
+    color: forestgreen;
+}
+.link:hover {
+    zoom: 1.5;
+}
+.header {
+    line-height: 70px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.logo{
+    float: left;
+    width: 25%;
+    height: 70px;
+}
+
+.type{
+    float: left;
+    width: 75%;
+    padding-left: 140px;
+}
+
+.head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.15);
+}
+.main{
+    margin: 70px;
+}
+i{
+    padding-right: 10px;
+}
+.note{
+    font-size: 13px;
+    background-color: forestgreen;
+    text-align: center;
+    color: white;
+    height: 154px;
+    padding: 30px 100px;
+}
+.note h2{
+    margin-bottom: 10px;
+}
+footer{
+    padding: 60px 150px 230px 150px;
+    margin-bottom: 50px;
+}
+.left{
+    float: left;
+    font-size: 13px;
+    width: 30%;
+}
+.left li{
+    list-style: none;
+}
+.left li a{
+    color: forestgreen;
+}
+.center{
+    float: left;
+    width: 30%;
+    font-size: 13px;
+}
+.right{
+    float: right;
+    width: 40%;
+    font-size: 13px;
+    padding-left: 20px;
+}
+footer .center li{
+    padding-top:15px;
+    margin-left: 30px;
+}
+footer .left li{
+    padding-top:15px;
+    margin: 0 15px 0 15px;
+}
+footer .center p{
+    padding: 15px 0 0 15px;
+    font-weight: 700;
+
+}
+input[name=your_email]{
+    border: 1px solid forestgreen;
+    height: 38px;
+    width: 380px;
+    margin: 30px 0 20px 0;
+    padding: 10px;
+}
+button[name=sub-mail]{
+    background-color: forestgreen;
+    border: 1px solid forestgreen;
+    height: 38px;
+    width: 380px;
+    color: white;
+}
+::placeholder{
+    color: forestgreen;
+}
+.carousel slide{
+    width: 300px;
+}
+.text{
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    margin: 40px;
+}
+.nv{
+    height: 800px;
+}
+.name-item{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+}
+.giatien{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.imbsl{
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
+.box-item{
+    float: left;
+    width: calc(25% - 6px);
+    margin: 3px;
+    padding: 3px;
+    border-radius: 6px;
+    height: 430px;
+}
+.bt{
+    color: white;
+    background-color: forestgreen;
+    width: calc(40% - 2px);
+    border: 0;
+    font-size: 12px;
+    padding: 5px;
+    box-shadow: 2px -2px 2px rgba(0, 0, 0, 0.24);
+}
+
+.top-box{
+    width: 300px;
+    text-align: center;
+}
+td{
+    text-align: center;
+}
+.imbsl:hover{
+    zoom: 110%;
+}
+button[name=sub]{
+    background-color: forestgreen;
+    border: 1px solid forestgreen;
+    height: 38px;
+    width: 100px;
+    color: white;
+    margin-bottom: 20px;
+}
+.tr-buy{
+    border-bottom: 2px solid forestgreen;
+}
+.td-buy{
+    border-bottom: 1px solid forestgreen;
+    padding: 5px;
+}
+.form-buy{
+    padding: 100px;
+}
+.sum-buy{
+    font-size: 22px;
+    margin: 20px 0;
+}
+#gh{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+button[name=dieu-huong]{
+    background-color: forestgreen;
+    border: 1px solid forestgreen;
+    height: 38px;
+    width: 200px;
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+.back-to-top{
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+}
+#sldh{
+    color: red;
+    font-weight: 700;
+}
